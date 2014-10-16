@@ -11,6 +11,6 @@ sudo pkg upgrade
   NODE_VERSION=0.10.31
 <% } %>
 
-sudo pkg add gcc openssl git curl
-sudo pkg add node-${NODE_VERSION}
+sudo pkg install gcc openssl git curl
+sudo pkg install node-${NODE_VERSION}
 

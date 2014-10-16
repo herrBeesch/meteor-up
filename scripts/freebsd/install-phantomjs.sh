@@ -3,8 +3,6 @@
 
 # Install PhantomJS
 
-PHANTOMJS_VERSION=1.9.7
-
 sudo pkg install npm
 
-npm install phantomjs@${PHANTONJS_VERSION}-15
+npm install -g phantomjs@1.9.7-15
