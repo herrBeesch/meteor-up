@@ -5,6 +5,6 @@
 
 PHANTOMJS_VERSION=1.9.7
 
-sudo pkg add npm
+sudo pkg install npm
 
 npm install phantomjs@${PHANTONJS_VERSION}-15
